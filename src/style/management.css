@@ -1,0 +1,21 @@
+.managementCenter.key-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    padding: 22px 0px;
+}
+
+.estates-description .estate {
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: left;
+    padding-top: 22px;
+}
+
+.estates-description .estate .estate-description {
+    margin-right: 12px;
+}
+
+.estates-description {
+    border-top: 1px solid black;
+}

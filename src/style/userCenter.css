@@ -1,0 +1,64 @@
+.usercenter.user-information {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+    text-align: left;
+}
+
+.usercenter.user-information .user-name {
+    margin-bottom: 12px;
+}
+
+.usercenter.user-info {
+    margin-left: 22px;
+}
+
+.user-credit {
+    margin: 22px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.user-credit > div {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 18px 12px;
+}
+
+.user-credit > div:first-child {
+    border-right: 1px dashed black;
+}
+
+#management-protal-functions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+#management-protal-functions .management-tools {
+    padding: 22px;
+}
+
+.other-options {
+    border-top: 1px solid black;
+    text-align: left;
+    padding: 22px 0px;
+    margin-top: 22px;
+}
+
+.other-options > .redirect  {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.other-options > .redirect span  {
+    margin-left: 10px;
+}
+
+.center-footer > div:first-child {
+    margin-bottom: 8px;
+}
+
+.center-footer > div:nth-child(2) {
+    color: grey;
+}
