@@ -2,7 +2,7 @@ import { postRequest } from './rest';
 
 class Oauth {
     constructor () {
-        this.host = "http://10.0.0.3:8084";
+        this.host = "https://api.longwanclubs.com";
     }
     login(login_id, password) {
         return postRequest(`${this.host}/api/oauth/login`, {
