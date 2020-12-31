@@ -34,6 +34,22 @@
     text-decoration: none;
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.alert {
+    color: #cc3300;
+}
+
+.redirect-link {
+    text-decoration: none;
+    color: black;
+}
 
 /* ----------- IPHONE ----------- */
 
